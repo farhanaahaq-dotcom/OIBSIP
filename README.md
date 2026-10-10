@@ -1,73 +1,123 @@
-# Java Development Internship | OASIS INFOBYTE
+<div align="center">
 
-This folder brings together the three Java tasks I worked on as part of the OASIS INFOBYTE internship. Each task focuses on a different area of Java, from programming logic to desktop applications.
+# ☕ Java Development — OIBSIP
 
-## Projects Included
+**Three tasks. Three small projects. One step forward in Java.**
 
-### 1. Online Reservation System
+*My work and learning from the OASIS INFOBYTE Java Development Internship*
 
-This project is a basic train reservation system. It provides a way to sign in, enter reservation details, and manage bookings.
+</div>
 
-**What it includes**
-- Login screen
-- Train reservation details
-- Booking cancellation
-- SQLite database for storing reservation information
+---
 
-**Built with:** Java, Swing, JDBC, SQLite
+## 👋 About This Repository
 
-### 2. Number Guessing Game
+Welcome! This repository brings together the **three Java tasks** I worked on during my OASIS INFOBYTE internship.
 
-This is a simple game in which the program selects a number and the player tries to find it by making guesses. The game gives feedback so the player can adjust their next guess.
+I used these tasks to practise Java in different ways — working with reservation details, building a guessing game, and creating a simple ATM-style interface. Each project helped me understand a little more about program logic and application development.
 
-**Java concepts used**
-- Random numbers
-- Loops and `if-else` conditions
+## 🧭 Project Guide
+
+| No. | Project | Main Focus |
+|:---:|---|---|
+| `01` | **Online Reservation System** | Booking flow and database connectivity |
+| `02` | **Number Guessing Game** | Core Java and game logic |
+| `03` | **ATM Interface** | Desktop UI and basic banking operations |
+
+---
+
+## 🚆 01 — Online Reservation System
+
+A train reservation application designed to handle the basic steps involved in booking and cancelling a ticket.
+
+**Key features**
+- Login screen for users
+- Enter and manage reservation details
+- Cancel a reservation
+- Store reservation information in an SQLite database
+
+**Tech used:** `Java` · `Java Swing` · `JDBC` · `SQLite`
+
+**What I practised:** Creating desktop screens, connecting Java to a database, and organising reservation-related operations.
+
+---
+
+## 🎯 02 — Number Guessing Game
+
+A small interactive game where the program chooses a number and the player tries to guess it. The game uses the player's guesses to guide the next attempt.
+
+**Key concepts**
+- Random number generation
 - User input and output
-- Basic game logic
+- `if-else` conditions and loops
+- Comparing guesses and showing feedback
 
-**Built with:** Java
+**Tech used:** `Java`
 
-### 3. ATM Interface
+**What I practised:** Applying basic Java logic to make a simple program interactive.
 
-The ATM project demonstrates common banking actions in a desktop application. It uses a graphical interface to make the options easy to access.
+---
 
-**Available operations**
-- Login with user ID and PIN
-- Check the account balance
+## 🏧 03 — ATM Interface
+
+A Java desktop application that represents a few common ATM operations through a graphical interface.
+
+**Key features**
+- Login using a user ID and PIN
+- View the account balance
 - Deposit and withdraw money
-- Transfer funds
-- Check transaction history
+- Transfer money
+- View transaction history
 
-**Built with:** Java, Java Swing
+**Tech used:** `Java` · `Java Swing`
 
-## Folder Layout
+**What I practised:** Building a GUI, validating user actions, and keeping track of banking transactions in the application.
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool / Technology | Used for |
+|---|---|
+| Java | Application logic |
+| Java Swing | Desktop user interface |
+| JDBC | Java-to-database connectivity |
+| SQLite | Storing reservation data |
+| VS Code / Eclipse | Writing and running Java code |
+
+*The technologies used can differ by task; see each project folder for its specific setup.*
+
+## ▶️ Run a Project
+
+1. Install a compatible **Java JDK**.
+2. Clone or download this repository.
+3. Open the `Java Development` folder in VS Code or Eclipse.
+4. Choose one of the three task folders.
+5. Check the source files and run that project's main class.
+
+**For the Online Reservation System:** make sure the SQLite JDBC driver is configured. If the project includes a `pom.xml`, open it as a Maven project and let Maven resolve the dependencies.
+
+## 🌱 What I Learned
+
+Working on these projects gave me practical experience with Java basics, conditions, loops, methods, and classes. I also got to explore Swing interfaces and database connectivity. The tasks were a good way to practise turning a requirement into a working program and to get more comfortable debugging my own code.
+
+## 📁 Repository Contents
 
 ```text
 Java Development/
-├── TASK 1-Online-Reservation-System/
-├── TASK 2 NumberGuessingGame/
-└── TASK 3 ATM Interface/
+├── Online Reservation System
+├── Number Guessing Game
+└── ATM Interface
 ```
 
-Each task has its own source files. Please open the relevant folder to see the code and any project-specific setup files.
+The names above describe the three projects; the actual folder names and setup files are available in the repository.
 
-## Running the Projects
+---
 
-1. Install a compatible Java JDK.
-2. Download or clone the repository.
-3. Open the folder for the task you want to run in VS Code or Eclipse.
-4. Locate the main class and run it.
-5. For the reservation system, ensure the SQLite JDBC driver and other project dependencies are configured. If a `pom.xml` file is present, open the project as a Maven project and allow the dependencies to load.
+<div align="center">
 
-## My Learning
+**OASIS INFOBYTE · Java Development Internship**
 
-These tasks gave me a chance to practise Java by building small working projects. I worked with conditions, loops, methods, classes, and object-oriented programming. I also got experience with Swing for desktop UI development and SQLite database connectivity for the reservation system.
+*Learning by building, one task at a time.*
 
-## Internship Details
-
-- **Organization:** OASIS INFOBYTE
-- **Domain:** Java Development
-- **Projects:** Online Reservation System, Number Guessing Game, ATM Interface
-
-This repository is a record of the tasks I worked on and the concepts I practised during the internship.
+</div>
